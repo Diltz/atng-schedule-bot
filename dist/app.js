@@ -1,8 +1,11 @@
 "use strict";
+// set timezone
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+process.env.TZ = 'Asia/Krasnoyarsk';
+//
 const better_sqlite3_1 = __importDefault(require("better-sqlite3"));
 const telegraf_1 = require("telegraf");
 const querystring_1 = __importDefault(require("querystring"));
