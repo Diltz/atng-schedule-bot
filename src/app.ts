@@ -1,3 +1,9 @@
+// set timezone
+
+process.env.TZ = 'Asia/Krasnoyarsk'
+
+//
+
 import Database from 'better-sqlite3';
 import { Context, Telegraf } from 'telegraf'
 import { Update } from 'typegram'
